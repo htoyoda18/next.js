@@ -1,0 +1,80 @@
+- .alexignore
+  - Alexで無視するファイルの設定
+- .alexrc
+  - Alex の設定ファイル
+- .eslintignore
+  - ESLintで無視するファイルの設定
+- .eslintrc.cli.json
+  - 特定の CLI コマンドのルールを定義
+- .eslintrc.json
+  - ESLintの設定ファイル
+- .git-blame-ignore-revs
+  - git blame で無視するコミットを指定
+- .gitattributes
+  - Git 属性を指定
+- .gitignore
+  - Git で無視するファイルやディレクトリを定義
+- .ignore
+  - 無視するファイルやディレクトリを指定
+- .node-version
+  - 推奨される Node.js のバージョンを指定
+- .npmrc
+  - npm の設定ファイル
+- .prettierignore
+  - Prettierが無視するファイルやディレクトリを定義
+- .prettierrc.json
+  - Prettier の設定ファイルで、コードフォーマットルールを指定
+- .rustfmt.toml
+  - Rust のコードフォーマッタ
+- CODE_OF_CONDUCT.md
+  - コミュニティの行動規範を定義
+- Cargo.lock
+  - Rust プロジェクト用のパッケージのバージョン固定
+- Cargo.toml
+  - Rust プロジェクト用のパッケージ管理ファイル
+- UPGRADING.md
+  - プロジェクトのアップグレード方法を記載
+- azure-pipelines.yml
+  - Azure Pipelines 用の CI/CD 設定
+- contributing.md
+  - コントリビュータ向けのガイドライン
+- jest.config.js
+  - Jest の設定ファイル
+- jest.replay.config.js
+  - Jest のリプレイ用設定
+- lerna.json
+  - Lerna を使ったモノレポ管理の設定
+- license.md
+  - ライセンス情報
+- lint-staged.config.js
+  - lint-staged 用の設定
+- package.json
+  - プロジェクトの依存関係やスクリプトを定義
+- pnpm-lock.yaml
+  - pnpm 用のロックファイル
+- pnpm-workspace.yaml
+  - pnpm ワークスペースの設定
+- readme.md
+  - プロジェクトの概要やセットアップ手順を記載
+- release.js
+  - リリース用のスクリプト
+- run-tests.js
+  - テストを実行するスクリプト
+- rust-toolchain.toml
+  - Rust のツールチェーンを指定
+- sgconfig.yml
+  - Sourcegraph 構成ファイル
+- socket.yaml
+  - WebSocket 接続やその他関連設定に使用
+- test-file.txt
+  - テスト用のファイル
+- tsconfig-tsec.json
+  - TypeScript の型セキュリティ用設定
+- tsconfig.json
+  - TypeScript の基本設定
+- tsec-exemptions.json
+  - 型セキュリティチェックを免除するリスト
+- turbo.json
+  - Turborepo 用の設定
+- vercel.json
+  - Vercel プラットフォームの設定
